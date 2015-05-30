@@ -1,0 +1,61 @@
+.container {
+	margin: 0 auto;
+}
+
+#trafficLight {
+	width: 180px;
+	background-color: #000000;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.circle {
+	width: 140px;
+	height: 140px;
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 70px;
+	margin: 20px;
+	background-color: #555555;
+}
+
+#changeButton {
+	color: #DDDDDD;
+	margin: 20px auto;
+	padding: 10px;
+	width: 180px;
+	background-color: #777777;
+}
+
+#changeButton:hover {
+	background-color: #DDDDDD;
+	color: #777777;
+}
+
+#changeButton p {
+	text-align: center;
+}
+
+@media (max-width: 319px) {
+	.container {
+		width: 100%;
+	}
+} 
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.container {
+		width: 320px;
+	}
+} 
+
+@media (min-width: 768px) and (max-width: 959px) {
+	.container {
+		width: 768px;
+	}
+} 
+
+@media (min-width: 960px) {
+	.container {
+		width: 960px;
+	}
+} 
