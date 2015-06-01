@@ -1,11 +1,11 @@
-count = 0;
+var count = 0;
 document.getElementById("changeButton").addEventListener("click", changeColor );
 function changeColor() {
-	colorValue = ++count%3; //if trafficLight has 3 light
-	off = "circle off";
-	green = "circle green";
-	red = "circle red";
-	orange = "circle orange";
+	var colorValue = ++count%3; //if trafficLight has 3 light
+	var off = "circle off";
+	var green = "circle green";
+	var red = "circle red";
+	var orange = "circle orange";
 	
 	if (colorValue == 0) {
 		document.getElementById("top").className = off;
