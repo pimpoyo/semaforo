@@ -16,6 +16,21 @@
 	-webkit-border-radius: 70px; 
 	border-radius: 70px;
 	margin: 20px;
+}
+
+.red {
+	background-color: #FF0000;
+}
+
+.orange {
+	background-color: #FF6514;
+}
+
+.green {
+	background-color: #00FF00;
+}
+
+.off {
 	background-color: #555555;
 }
 
